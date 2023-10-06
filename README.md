@@ -20,7 +20,7 @@
 
 * [Contribuindo em um Projeto Open Source no GitHub](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
 * [Desafios de Projetos: Crie um Portfólio Vencedor](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Versionamento de Código com Git e GitHub](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
+* [Versionamento de Código com Git e GitHub](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Princ%C3%ADpios%20e%20Desenvolvimento%20de%20Software/Versionamento%20de%20C%C3%B3digo%20com%20Git%20e%20Github)
 * [Organizando seus estudos com os Roadmaps Dio e o Notion](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
 </details>
 
