@@ -221,4 +221,4 @@ git stash apply // manter alterações na lista
 - [GITHUB BLOG. Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
 - [MICROSOFT. Microsoft to acquire GitHub for $7.5 billion](https:/news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/)
 
-[👩🏻‍🎓 Certificado de conclusão]([https://www.dio.me/certificate/C1D1388C/share](https://hermes.digitalinnovation.one/certificates/C1D1388C.pdf?_gl=1*yr1uke*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY5NjU1MzYxOS4zNjMuMS4xNjk2NTU3NTEwLjE5LjAuMA..)https://hermes.digitalinnovation.one/certificates/C1D1388C.pdf?_gl=1*yr1uke*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY5NjU1MzYxOS4zNjMuMS4xNjk2NTU3NTEwLjE5LjAuMA..)
+[👩🏻‍🎓 Certificado de conclusão](https://hermes.digitalinnovation.one/certificates/C1D1388C.pdf?_gl=1*hku5ud*_ga*Mzk0MDc5NzYwLjE2NTgyNDk0MDI.*_ga_7GXMH3CQ72*MTY5NjU1MzYxOS4zNjMuMS4xNjk2NTU3NjI2LjYwLjAuMA..)
