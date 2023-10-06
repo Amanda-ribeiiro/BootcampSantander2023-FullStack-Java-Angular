@@ -117,11 +117,11 @@
 #
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=0067FF&background=39B2A500&repeat=false&width=435&lines=Tecnologias+Utilizadas)](https://git.io/typing-svg)
-* HTML5
-* CSS3
-* JavaScript
-* Java
-* Angular
+<code><img height="20" src="https://github.com/Amanda-ribeiiro/devicon/blob/master/icons/html5/html5-original.svg"></code>
+<code><img height="20" src="https://github.com/Amanda-ribeiiro/devicon/blob/master/icons/css3/css3-original.svg"></code>
+<code><img height="20" src="https://github.com/Amanda-ribeiiro/devicon/blob/master/icons/javascript/javascript-original.svg"></code>
+<code><img height="20" src="https://github.com/Amanda-ribeiiro/devicon/blob/master/icons/java/java-original.svg"></code>
+<code><img height="20" src="https://github.com/Amanda-ribeiiro/devicon/blob/master/icons/angularjs/angularjs-original.svg"></code>
   
 #
 
