@@ -41,9 +41,9 @@ alert("Esse é um texto de alerta!");
 
 > :warning: É uma boa prática declarar variáveis no topo do bloco de código.
 
-# Operadores
+## Operadores
 
-**Operadores Aritméticos**
+### **Operadores Aritméticos**
 
 São operadores matemáticos com valores numéricos:
 - `+`: Adição
@@ -53,7 +53,7 @@ São operadores matemáticos com valores numéricos:
 - `%`: Divisão Inteira
 - `**`: Potenciação
 
-**Operadores Relacionais**
+### **Operadores Relacionais**
 
 São operadores que comparam a relação entre valores:
 - `>`: Maior que
@@ -61,7 +61,7 @@ São operadores que comparam a relação entre valores:
 - `>=`: Maior ou igual a
 - `<=`: Menor ou igual a
 
-**Operadores Lógicos**
+### **Operadores Lógicos**
 
 São operadores que avaliam valores lógicos:
 - `&&`: "E" - Retorna verdadeiro se todos os valores forem verdadeiros
@@ -69,7 +69,7 @@ São operadores que avaliam valores lógicos:
 - `!`: "NÃO" - Inverte o valor de verdadeiro para falso e vice-versa
 
 ## Vetores e Objetos
-**Array**
+### **Array**
 
 Arrays são um tipo de lista ou matriz de variáveis, onde cada variável possui um índice. Os valores podem ser de vários tipos. Um array deve ser declarado entre colchetes `[]` e pode armazenar qualquer valor em seus índices, incluindo outros arrays. Por exemplo:
 
@@ -79,7 +79,7 @@ let array = ['string', 1, true, false, ['array1'], ['array2'], ...];
 
 > Obs.: O índice só é acessado por um número inteiro, onde 0 é o primeiro índice. Cada índice é separado por vírgula
 
-**Manipulando Arrays**
+### **Manipulando Arrays**
 
 Ao ser declarado, o Array traz consigo uma série de métodos para manipulá-lo:
 
@@ -139,7 +139,7 @@ let array13 = ['string', 1, true, ['array3'], ['array4'], ['array5']];
 let novoArray = array13.slice(0, 3);
 console.log(novoArray);
 ```
-**Objetos**
+### **Objetos**
 
 Dados que possuem propriedades e valores que definem suas características. Deve ser declarado entre chaves “{}”.
 Ex.: imagine uma xícara azul. Ela tem cor, pode ter vários tamanhos e funções. Pode ser declarada assim:
@@ -151,7 +151,7 @@ tamanho: ‘p’,
 funcao: tomarCafe()
 }
 ```
-**Manipulando objetos**
+### **Manipulando objetos**
 As propriedades de objetos podem ser atribuídas à variáveis, facilitando a manipulação do objeto. Chamamos isso de desestruturação. Por exemplo: 
 
 ```javascript
@@ -169,11 +169,263 @@ var { cor, tamanho, funcao } = xicara;
 
 ## Estruturas condicionais
 
+São instruções para realizar determinadas tarefas a partir de uma condição, seja de decisão ou repetição.
+
+### **`if`**
+
+Podemos usar as palavras reservadas “if” para estabelecer uma condição:
+
+```javascript
+var jogador1 = 0;
+var jogador2 = 0;
+if (jogador1 > 0) {
+    console.log(‘jogador1 marcou ponto’);
+}
+
+// como ler: se o jogador1 tiver valor maior que 0 ele marcou ponto.
+```
+
+### **`else`**
+
+No caso de a condição não ser atendida podemos usar o “else” :
+
+```javascript
+var jogador1 = 1;
+var jogador2 = 0;
+if (jogador1 > 0) {
+    console.log(‘jogador1 marcou ponto’);
+} else {
+    console.log(‘ninguem marcou ponto’);
+}
+```
+
+### **`else if`**
+
+Caso haja mais de uma condição usamos o “else if“:
+
+```javascript
+var jogador1 = 1;
+var jogador2 = 0;
+
+if (jogador1 > 0) {
+    console.log(‘jogador1 marcou ponto’);
+} else if (jogador2 > 0) {
+    console.log(‘jogador2 marcou ponto’);
+} else {
+    console.log(‘ninguém marcou ponto);
+}
+```
+
+### **`ninho de if`**
+
+Podemos também usar o “if” dentro de um outro “if”, chamamos isso de aninhamento de if’s ou ninho de if’s.
+
+```javascript
+if (jogador1 = -1) {
+if (jogador1 > 0) {
+    console.log(‘jogador 1 marcou ponto’);
+} else {
+    console.log(‘ninguém marcou ponto’);
+}
+} else {
+    console.log(‘jogador inválido’);
+}
+```
+
+### **`If ternário`**
+
+Podemos também fazer uma verificação em uma única linha usando o “if” ternário:
+
+```javascript
+[condição] ? [instrução1] : [instrução2];
+jogador1 > 0 ? console.log(‘marcou ponto’) : console.log(‘não marcou ponto”);
+
+// lembre de usar a interrogação “?” e dois pontos “:”
+```
+
+### **`Usando switch/case`**
+
+O “switch/case” funciona como uma estrutura condicional também;
+
+```javascript
+switch (${expressao}) {
+    case 1:
+        ${instrucao};
+    break;
+    case 2:
+        ${instrução};
+    break;
+}
+```
+
+### **Laços de repetição**
+
+São estruturas condicionais que repetem uma instrução até atingir determinada condição:
+
+• `For`
+• `For/in`
+• `For/of`
+• `While`
+• `Do/while`
+
+### **`For`**
+
+Funciona como uma repetição de instrução até que a condição seja falsa:
+
+> for ([expressaoInicial]; [condicao]; [incremento]) {  declaracao }
+
+```javascript
+var array = [‘valor1’, ‘valor2’, ‘valor3’, ‘valor4’]
+for (let i = 0; i < array.length; i++) {
+console.log(i);
+}
+```
+
+### **`For/in`**
+
+Funciona como uma repetição a partir de uma propriedade:
+
+> for ([indice] in [objeto ou array]) {declaracao }
+```javascript
+var array = [‘valor1’, ‘valor2’, ‘valor3’, ‘valor4’]
+for (i in array) {
+    console.log(i);
+}
+```
+
+### **`For/of`**
+
+Funciona como uma repetição a partir de um valor:
+
+> for ([indice] of [array]) { declaracao }
+```javascript
+var array = [‘valor1’, ‘valor2’, ‘valor3’, ‘valor4’]
+for (i of array) {
+    console.log(i);
+}
+```
+> :warning: O For/of não funciona com objetos pois as propriedades variam, diferentes do índice em um array que sempre serão números inteiros.
+
+Mas e se eu quiser pegar o valor mesmo assim?
+```javascript
+for (i of object.propriedade) {
+    console.log(i);
+}
+
+// porém cada caractere dentro do valor será Impresso em linhas separadas
+```
+
+### **`while`**
+
+Executa uma instrução “enquanto” determinada condição for verdadeira, a verificação é feita antes da execução;
+
+```javascript
+var a = 0;
+while (a < 10) {
+    a++;
+    console.log(a);
+}
+
+// como ler: enquanto a variável a for menor que 10 ela vai receber mais um e imprimir no console
+```
+
+### **`Do while`**
+
+Executa uma instrução “até que” determinada condição seja falsa, a verificação é feita depois da execução;
+
+```javascript
+var a = 0;
+do {
+    a++;
+    console.log(a);
+} while (a < 10) 
+}
+
+// como ler: a variável a vai receber mais um e imprimir no console até que seu valor chegue a 10.
+```
+
 ## Funções e suas particularidades
+
+### **Função**
+São blocos de comandos e instruções para a execução de determinadas tarefas:
+
+```bash
+function nomeDaFuncao() {
+${instrucao};
+}
+nomeDaFuncao();
+```
+
+Geralmente se utiliza a palavra reservada “function” seguida de parênteses “()” e chaves “{}”:
+
+```javascript
+function funcao() {
+console.log(“mensagem”);
+}
+funcao();
+
+// () – indica que é um objeto do tipo function.
+// {} – indica que é um bloco de instrução.
+```
+
+### **Funções com parâmetros**
+As funções podem receber em sua declaração, parâmetros, que servem como variáveis, onde sua atribuição pode ser feita durante a chamada da função:
+
+```bash
+function nomeDaFuncao(parametro) {
+${instrucao};
+}
+nomeDaFuncao(valorDoParametro);
+```
+Exemplo:
+```javascript
+function mensagem(primeiro, segundo) {
+console.log(primeiro, segundo);
+}
+nomeDaFuncao(“Tudo certo”, “jovem!”);
+```
 
 ## Aprofundando em funções 
 
+### **Funções declarativas**
+
+São funções que possuem o uso mais comum, deve ser declarada usando a palavra reservada “function” seguida do nome da função, parênteses “()” e chaves “{}”:
+
+```javascript
+function nomeDaFuncao() {
+${instrucao};
+}
+// o nome da função é obrigatório;
+```
+
+### **Expressões de Funções**
+
+São funções atribuídas à expressões. A nomeação das funções por expressão é opcional:
+
+
+```javascript
+Ex. 1: var funcao = function nomeDaFuncao() {
+${instrucao};
+}
+Ex. 2: var funcao = function() {
+${instrucao};
+};
+```
+
+### **Arrow Function**
+
+São funções de expressão de sintaxe curta. Arrow functions sempre serão anônimas, e portanto não podem ser nomeadas. deve ser declarada com parênteses "()", seguido de "=>" e depois chaves "{}"
+
+
+```javascript
+var funcao = () => {
+${instrucao};
+}
+```
+
 ## Referências
+
+[Repositório Git](https://github.com/DianaMartine/curso-dio-sintaxe-basica-javascript)
 
 **Tipagem**
 - [Tipagem Dinâmica no JavaScript](https://danvitoriano.medium.com/tipagem-din%C3%A2mica-no-javascript-e3551a445b38)
