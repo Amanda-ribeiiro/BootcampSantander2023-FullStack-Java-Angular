@@ -34,5 +34,5 @@ $ touch ./assets/js/main.js
 
 ## References
 
-[Repositório Git](https://github.com/digitalinnovationone/js-developer-pokedex)
-[Pokemon API](https://pokeapi.co/docs/v2#pokemon)
+- [Repositório Git](https://github.com/digitalinnovationone/js-developer-pokedex)
+- [Pokemon API](https://pokeapi.co/docs/v2#pokemon)
