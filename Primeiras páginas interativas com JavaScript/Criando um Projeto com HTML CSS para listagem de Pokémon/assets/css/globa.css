@@ -1,0 +1,24 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /* considerar bordar com o tamanho total*/
+}
+
+body {
+    background-color: #202428;
+}
+
+.content {
+    height: 100vh; /* tamanho da tela inteira*/
+    padding: 1rem; /* define um espaçamento interno de 1 rem, que é baseado no tamanho da fonte do navegador*/
+    width: 100vh;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto; /* O valor "auto" centraliza horizontalmente o elemento */
+        border-radius: 1rem;
+    }
+}
