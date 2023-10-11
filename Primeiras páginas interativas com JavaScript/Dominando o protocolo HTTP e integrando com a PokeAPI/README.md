@@ -73,3 +73,9 @@ Authorization: Bearer SeuTokenAqui
 | 404   | Não Encontrado - Recurso não encontrado     |
 | 500   | Erro Interno do Servidor - Falha no servidor |
 
+## Primeira requisição
+
+https://pokeapi.co/
+https://pokeapi.co/api/v2/pokemon/ditto
+
+A [API Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch) fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas. Ela também fornece o método global fetch() (en-US) que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
