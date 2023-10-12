@@ -79,3 +79,47 @@ https://pokeapi.co/
 https://pokeapi.co/api/v2/pokemon/ditto
 
 A [API Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch) fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas. Ela também fornece o método global fetch() (en-US) que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
+
+### Manipulando o resultado da requisição através de uma Promise
+
+Os dois códigos realizam essencialmente a mesma tarefa de fazer uma requisição HTTP usando a função fetch para obter dados da API da PokeAPI e lidar com a resposta. No entanto, a diferença entre os dois códigos está na maneira como as funções de retorno para as promessas (.then() e .catch()) são definidas, usando a função tradicional e as funções de seta.
+
+```javascript
+// requisição HTTP
+const offset = 0
+const limit = 10
+const url = `https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`
+
+fetch(url)
+    .then(function (response){
+        return response.json()
+    })
+    .then(function (jsonBody) {
+        console.log(jsonBody)
+    })
+    .catch(function (error) {
+        console.error(error);
+    })
+    .finally(function () {
+        console.log('Requisição concluída')
+    })
+```
+
+```javascript
+// requisição HTTP
+const offset = 0
+const limit = 10
+const url = `https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`
+
+fetch(url)
+    .then((response) => response.json())
+    .then( (jsonBody) => console.log(jsonBody))
+    .catch((error) => console.error(error))
+```
+A principal diferença é que o Código 2 utiliza funções de seta para definir as funções de retorno. As funções de seta têm as seguintes características:
+
+- São mais concisas, uma vez que você pode omitir a palavra-chave function e as chaves {} se a função consistir em uma única expressão.
+- Herdam o valor do this do contexto circundante, o que pode ser útil em muitos casos.
+- São frequentemente usadas para funções curtas, como as funções de retorno de promessas, como no seu exemplo.
+
+Portanto, no Código 2, as funções de `=>`(*arrow functions*) simplificam a sintaxe e tornam o código mais conciso, mantendo o mesmo funcionamento do Código 1. Ambos os códigos são válidos, mas o Código 2 é uma prática comum e recomendada para lidar com promessas em JavaScript devido à sua simplicidade e clareza.
