@@ -123,3 +123,23 @@ A principal diferença é que o Código 2 utiliza funções de seta para definir
 - São frequentemente usadas para funções curtas, como as funções de retorno de promessas, como no seu exemplo.
 
 Portanto, no Código 2, as funções de `=>`(*arrow functions*) simplificam a sintaxe e tornam o código mais conciso, mantendo o mesmo funcionamento do Código 1. Ambos os códigos são válidos, mas o Código 2 é uma prática comum e recomendada para lidar com promessas em JavaScript devido à sua simplicidade e clareza.
+
+### Transformando nossa lista de Pokémon em uma lista de HTML
+
+```javascript
+windows
+```
+
+> Objeto global que dá acesso ao navegador.
+
+```javascript
+document
+```
+
+> O documento atual que está na minha janela.
+
+### References
+
+[Repositório Git](https://github.com/digitalinnovationone/js-developer-pokedex)
+
+[Mozilla Developer Network (MDN)](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web): aprofunde nos conceitos da Web apresentados neste conteúdo acessando o link da documentação oficial da Mozilla denominada "Iniciando na Internet"
