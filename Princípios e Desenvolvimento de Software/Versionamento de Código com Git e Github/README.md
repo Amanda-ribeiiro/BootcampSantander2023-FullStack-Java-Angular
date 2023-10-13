@@ -217,6 +217,8 @@ Exibir o histórico resumido de commits do Git, mostrando cada commit em uma ún
 ```bash
 git log --online
 ```
+> 
+Para sair do histórico do Git no terminal, você pode pressionar a tecla "Q". Isso encerrará a visualização do log e o levará de volta ao prompt de comando.
 
 ## Referências
 - [GIT. Documentation](https://git-scm.com/doc)
