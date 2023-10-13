@@ -213,6 +213,11 @@ git stash pop // trazer as alterações e excluir a alteração mais recente da 
 git stash apply // manter alterações na lista
 ```
 
+Exibir o histórico resumido de commits do Git, mostrando cada commit em uma única linha com seu hash e mensagem.
+```bash
+git log --online
+```
+
 ## Referências
 - [GIT. Documentation](https://git-scm.com/doc)
 - [GITHUB. Documentation](https://docs.github.com/)
