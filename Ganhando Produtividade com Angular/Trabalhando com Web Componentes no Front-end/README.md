@@ -9,7 +9,14 @@
 [![Link do Curso](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://web.dio.me/course/trabalhando-com-web-components-no-front-end/learning/de8b3fd6-71a4-42d2-80b4-05f9bad77bc1?back=/track/santander-bootcamp-2023-fullstack-java-angular&tab=undefined&moduleId=undefined)
 [![Link do Curso](https://img.shields.io/badge/Acesse%20o%20Curso%20na%20Plataforma-E94D5F?style=for-the-badge)](https://web.dio.me/course/trabalhando-com-web-components-no-front-end/learning/de8b3fd6-71a4-42d2-80b4-05f9bad77bc1?back=/track/santander-bootcamp-2023-fullstack-java-angular&tab=undefined&moduleId=undefined)
 
+##
 
+```bash
+div.container
+```
+> cria uma div com o nome classe "container"
+
+![Alt text](image.png)
 
 ## Referências
 
