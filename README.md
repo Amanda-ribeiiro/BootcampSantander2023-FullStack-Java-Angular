@@ -18,21 +18,21 @@
 <details>
 <summary><b>Princípios de Desenvolvimento de Software</b></summary>
 
-* [Contribuindo em um Projeto Open Source no GitHub](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Desafios de Projetos: Crie um Portfólio Vencedor](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
+* [Contribuindo em um Projeto Open Source no GitHub](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Princ%C3%ADpios%20e%20Desenvolvimento%20de%20Software/Contribuindo%20em%20um%20Projeto%20Open%20Source%20no%20GitHub)
+* [Desafios de Projetos: Crie um Portfólio Vencedor](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Princ%C3%ADpios%20e%20Desenvolvimento%20de%20Software/Desafios%20de%20Projetos%EF%80%BA%20Crie%20um%20Portf%C3%B3lio%20Vencedor)
 * [Versionamento de Código com Git e GitHub](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Princ%C3%ADpios%20e%20Desenvolvimento%20de%20Software/Versionamento%20de%20C%C3%B3digo%20com%20Git%20e%20Github)
-* [Organizando seus estudos com os Roadmaps Dio e o Notion](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
+* [Organizando seus estudos com os Roadmaps Dio e o Notion](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Princ%C3%ADpios%20e%20Desenvolvimento%20de%20Software/Organizando%20os%20estudos%20com%20Roadmaps%20Dio%20e%20Notion)
 </details>
 
 <details>
 <summary><b>Primeira Interativa com JavaScript</b></summary>
 
-* [Introdução a Criação de Websites com HTML5 e CSS3](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Sintaxe básica em Javascript](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Introdução ao Desenvolvimento Web com Javascript](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Criando um projeto com HTML/CSS para listagem de Pokémon](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Dominando o Protocolo HTTP e integrando com a PokeAPI](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Construindo uma Pokédex com JavaScript](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
+* [Introdução a Criação de Websites com HTML5 e CSS3](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Primeiras%20p%C3%A1ginas%20interativas%20com%20JavaScript/Introdu%C3%A7%C3%A3o%20a%20Cria%C3%A7%C3%A3o%20de%20Websites%20com%20HTML5%20e%20CSS3)
+* [Sintaxe básica em Javascript](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Primeiras%20p%C3%A1ginas%20interativas%20com%20JavaScript/Sintaxe%20B%C3%A1sica%20em%20JavaScript)
+* [Introdução ao Desenvolvimento Web com Javascript](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Primeiras%20p%C3%A1ginas%20interativas%20com%20JavaScript/Introdu%C3%A7%C3%A3o%20ao%20Desenvolvimento%20Web%20com%20JavaScript)
+* [Criando um projeto com HTML/CSS para listagem de Pokémon](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Primeiras%20p%C3%A1ginas%20interativas%20com%20JavaScript/Criando%20um%20Projeto%20com%20HTML%20CSS%20para%20listagem%20de%20Pok%C3%A9mon)
+* [Dominando o Protocolo HTTP e integrando com a PokeAPI](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Primeiras%20p%C3%A1ginas%20interativas%20com%20JavaScript/Dominando%20o%20protocolo%20HTTP%20e%20integrando%20com%20a%20PokeAPI)
+* [Construindo uma Pokédex com JavaScript](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Primeiras%20p%C3%A1ginas%20interativas%20com%20JavaScript/Construindo%20uma%20Pok%C3%A9dex%20com%20JavaScript)
 </details>
 
 <details>
@@ -49,14 +49,14 @@
 <details>
 <summary><b>Ganhando Produtividade com Angular</b></summary>
 
-* [Trabalhando com Web Components no Front-End](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Typescript para Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Introdução ao Ecossistema Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Trabalhando com Componentes Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [LifeCycle Hooks Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Single Page Application Com Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Módulos Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
-* [Criando um Blog com Angular](https://web.dio.me/track/bf7abb82-1324-4074-9949-f474a1a911fe?tab=path)
+* [Trabalhando com Web Components no Front-End](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Ganhando%20Produtividade%20com%20Angular/Trabalhando%20com%20Web%20Componentes%20no%20Front-end)
+* [Typescript para Angular](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Ganhando%20Produtividade%20com%20Angular/typeScript%20para%20Angular)
+* [Introdução ao Ecossistema Angular](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Ganhando%20Produtividade%20com%20Angular/Introdu%C3%A7%C3%A3o%20ao%20Ecossistema%20Angular)
+* [Trabalhando com Componentes Angular](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Ganhando%20Produtividade%20com%20Angular/Trabalhando%20com%20Componentes%20Angular)
+* [LifeCycle Hooks Angular](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Ganhando%20Produtividade%20com%20Angular/LifeCycle%20Hooks%20Angular)
+* [Single Page Application Com Angular](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Ganhando%20Produtividade%20com%20Angular/Single%20Page%20Application%20com%20Angular)
+* [Módulos Angular](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Ganhando%20Produtividade%20com%20Angular/M%C3%B3dulos%20Angular)
+* [Criando um Blog com Angular](https://github.com/Amanda-ribeiiro/BootcampSantander2023-FullStack-Java-Angular/tree/main/Ganhando%20Produtividade%20com%20Angular/Criando%20um%20Blog%20com%20Angular)
 </details>
 
 <details>
