@@ -18,6 +18,42 @@ div.container
 
 ![Alt text](image.png)
 
+
+## Definindo um Component
+
+```javascript
+// Define uma nova classe JavaScript chamada CardNews que estende HTMLElement.
+class CardNews extends HTMLElement {
+    // Define o método construtor da classe.
+    constructor() {
+        // Chama o construtor da classe pai (HTMLElement) usando a palavra-chave super.
+        super();
+
+        // Cria um shadow DOM para o elemento personalizado.
+        const shadow = this.attachShadow({mode: "open"});
+
+        // Define o conteúdo do shadow DOM. Neste caso, um título h1.
+        shadow.innerHTML = "<h1>Hello World</h1>";
+    }
+}
+
+// Registra o elemento personalizado "card-news" com o nome da classe CardNews.
+customElements.define("card-news", CardNews);
+```
+
+```html
+<!-- Inclui um arquivo JavaScript externo. -->
+<script src="src/Components/CardNews.js" defer></script> <!-- Define o caminho para o arquivo JavaScript e Indica que o script será carregado em segundo plano (defer) após o HTML ser analisado. -->
+
+    <card-news></card-news>
+</body>
+</html>
+```
+
+## Anatomia e vantagens de Components
+
+
 ## Referências
 
-
+[shadow dom](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)
+[Can I use](https://caniuse.com/)
