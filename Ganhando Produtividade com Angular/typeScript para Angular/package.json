@@ -1,0 +1,18 @@
+{
+  "name": "typescript-para-angular",
+  "version": "1.0.0",
+  "description": "<h1>\r     <a href=\"https://www.dio.me/\">\r      <img align=\"center\" width=\"40px\" src=\"https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png\"></a>\r     <span>TypeScript para Angular</span>\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node build/index.js",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
