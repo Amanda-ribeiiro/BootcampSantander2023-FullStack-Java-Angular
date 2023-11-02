@@ -5,6 +5,10 @@
     font-family: 'Segoe UI', sans-serif;
 }
 
+body {
+    background-color: #222;
+}
+
 .app-root {
     display: flex;
     flex-direction: column;
@@ -13,4 +17,13 @@
     min-height: 100vh;
 }
 
+.container {
+    text-align: center;
+}
 
+#imgChapeu {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 50%;
+}

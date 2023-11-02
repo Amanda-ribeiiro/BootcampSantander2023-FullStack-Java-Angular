@@ -19,13 +19,16 @@ class Cardnews extends HTMLElement {
         // criando construtor para nosso conteúdo de título, link e conteúdo
         const autor = document.createElement("span");
         autor.textContent = "Year " + (this.getAttribute("autor") || "Anonymous");
+        autor.classList.add("card__autor");
 
         const linkTitle = document.createElement("a");
         linkTitle.textContent = this.getAttribute("title");
         linkTitle.href = this.getAttribute("link-url");
+        linkTitle.classList.add("card__title");
 
         const newsContent = document.createElement("p");
         newsContent.textContent = this.getAttribute("content");
+        newsContent.classList.add("card__content");
 
         // atribuindo o conteúdo na div do card left
         cardLeft.appendChild(autor);
@@ -59,7 +62,7 @@ class Cardnews extends HTMLElement {
         style.textContent = `
             .card {
                 width: 70%;
-                margin: 20px;
+                margin: 20px auto;
                 box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
                 -webkit-box-shadow: 9px 9px 27px 0px rgba(0,0,0,0.75);
                 -moz-box-sizing: 9px 9px 27px 0px rgba(0,0,0,0.75);
@@ -79,29 +82,33 @@ class Cardnews extends HTMLElement {
             }
 
             .card__left > a {
-                margin-top: 15px;
-                font-size: 25px;
-                color: black;
-                font-weight: bold;
+                margin-top: 5px;
+                font-size: 36px;
+                color: roxo;
+                font-weight: 900;
                 text-decoration: none;
-                padding-left: 10px;
+                padding-left: 20px;
+                font-family: 'Creepster', cursive, Roboto;
             }
 
             .card__left > p {
                 color: rgb(70, 70, 70);
-                padding-left: 10px;
+                padding: 20px;
+                font-family: 'Edu TAS Beginner', Shadows Into Light, Roboto;
             }
 
             .card__left > span {
                 font-weight: 400;
-                padding-left: 10px;
+                padding-left: 20px;
+                font-size: 8px;
+                font-family: 'Edu TAS Beginner', Shadows Into Light, Roboto;
             }
 
             .card__right {
                 width: 20%;
                 display: flex;
                 flex-direction: column;
-                position: relative; /* Adiciona uma posição relativa para posicionar a imagem de fundo */
+                position: relative;
             }
             .card:hover{
                 content: "";
@@ -116,6 +123,12 @@ class Cardnews extends HTMLElement {
             }
             .card:hover {
                 opacity: 1;
+            }
+            .card:hover .card__autor,
+            .card:hover .card__title,
+            .card:hover .card__content {
+                opacity: 0;
+            }
                 `;
 
                 return style;
